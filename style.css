@@ -152,7 +152,7 @@ body {
   transform: rotate(-380deg);
 }
 .orbital-menu__item:nth-child(9) .orbital-menu__link:before {
-  background: hwb(214 4% 66%);
+  background: #67a0eb;
   animation-delay: 2.31s;
 }
 
@@ -197,7 +197,7 @@ body {
   transform: rotate(-565deg);
 }
 .orbital-menu__item:nth-child(13) .orbital-menu__link:before {
-  background: rgb(85, 4, 74);
+  background: #58f05f);
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(14) {
@@ -208,7 +208,7 @@ body {
   transform: rotate(-608deg);
 }
 .orbital-menu__item:nth-child(14) .orbital-menu__link:before {
-  background: rgb(22, 8, 219);
+  background: #5146f0;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(15) {
