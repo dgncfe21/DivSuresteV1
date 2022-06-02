@@ -67,12 +67,23 @@ body {
   top: 0;
   transform-origin: 5rem 0;
 }
+.orbital-menu__item:nth-child(1) {
+  animation-delay: 0.1s;
+  transform: rotate(0.2deg);
+}
+.orbital-menu__item:nth-child(1) .orbital-menu__link {
+  transform: rotate(-0.2deg);
+}
+.orbital-menu__item:nth-child(1) .orbital-menu__link:before {
+  background: #e01ff1;
+  animation-delay: 0.33s;
+}
 .orbital-menu__item:nth-child(2) {
   animation-delay: 0.1s;
-  transform: rotate(45deg);
+  transform: rotate(44deg);
 }
 .orbital-menu__item:nth-child(2) .orbital-menu__link {
-  transform: rotate(-45deg);
+  transform: rotate(-44deg);
 }
 .orbital-menu__item:nth-child(2) .orbital-menu__link:before {
   background: #ffd24d;
@@ -80,21 +91,21 @@ body {
 }
 .orbital-menu__item:nth-child(3) {
   animation-delay: 0.2s;
-  transform: rotate(90deg);
+  transform: rotate(60deg);
 }
 .orbital-menu__item:nth-child(3) .orbital-menu__link {
-  transform: rotate(-90deg);
+  transform: rotate(-60deg);
 }
 .orbital-menu__item:nth-child(3) .orbital-menu__link:before {
-  background: #a6ff4d;
+  background: #860c45;
   animation-delay: 0.66s;
 }
 .orbital-menu__item:nth-child(4) {
   animation-delay: 0.3s;
-  transform: rotate(135deg);
+  transform: rotate(142deg);
 }
 .orbital-menu__item:nth-child(4) .orbital-menu__link {
-  transform: rotate(-135deg);
+  transform: rotate(-142deg);
 }
 .orbital-menu__item:nth-child(4) .orbital-menu__link:before {
   background: #4dff79;
@@ -102,10 +113,10 @@ body {
 }
 .orbital-menu__item:nth-child(5) {
   animation-delay: 0.4s;
-  transform: rotate(180deg);
+  transform: rotate(179deg);
 }
 .orbital-menu__item:nth-child(5) .orbital-menu__link {
-  transform: rotate(-180deg);
+  transform: rotate(-179deg);
 }
 .orbital-menu__item:nth-child(5) .orbital-menu__link:before {
   background: #4dffff;
@@ -113,32 +124,32 @@ body {
 }
 .orbital-menu__item:nth-child(6) {
   animation-delay: 0.5s;
-  transform: rotate(225deg);
+  transform: rotate(215deg);
 }
 .orbital-menu__item:nth-child(6) .orbital-menu__link {
-  transform: rotate(-225deg);
+  transform: rotate(-215deg);
 }
 .orbital-menu__item:nth-child(6) .orbital-menu__link:before {
-  background: #4d79ff;
+  background: #0732b4;
   animation-delay: 1.65s;
 }
 .orbital-menu__item:nth-child(7) {
   animation-delay: 0.6s;
-  transform: rotate(270deg);
+  transform: rotate(288deg);
 }
 .orbital-menu__item:nth-child(7) .orbital-menu__link {
-  transform: rotate(-270deg);
+  transform: rotate(-288deg);
 }
 .orbital-menu__item:nth-child(7) .orbital-menu__link:before {
-  background: #a64dff;
+  background: #05f111;
   animation-delay: 1.98s;
 }
 .orbital-menu__item:nth-child(8) {
   animation-delay: 0.7s;
-  transform: rotate(315deg);
+  transform: rotate(322deg);
 }
 .orbital-menu__item:nth-child(8) .orbital-menu__link {
-  transform: rotate(-315deg);
+  transform: rotate(-322deg);
 }
 .orbital-menu__item:nth-child(8) .orbital-menu__link:before {
   background: #ff4dd2;
@@ -146,113 +157,147 @@ body {
 }
 .orbital-menu__item:nth-child(9) {
   animation-delay: 0.7s;
-  transform: rotate(380deg);
+  transform: rotate(389deg);
 }
 .orbital-menu__item:nth-child(9) .orbital-menu__link {
-  transform: rotate(-380deg);
+  transform: rotate(-389deg);
 }
 .orbital-menu__item:nth-child(9) .orbital-menu__link:before {
-  background: #67a0eb;
+  background: #51922c;
   animation-delay: 2.31s;
 }
 
 .orbital-menu__item:nth-child(10) {
   animation-delay: 0.7s;
-  transform: rotate(430deg);
+  transform: rotate(451deg);
 }
 .orbital-menu__item:nth-child(10) .orbital-menu__link {
-  transform: rotate(-430deg);
+  transform: rotate(-451deg);
 }
 .orbital-menu__item:nth-child(10) .orbital-menu__link:before {
-  background: hwb(184 4% 35%);
+  background: #4aa6b0;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(11) {
   animation-delay: 0.7s;
-  transform: rotate(470deg);
+  transform: rotate(485deg);
 }
 .orbital-menu__item:nth-child(11) .orbital-menu__link {
-  transform: rotate(-470deg);
+  transform: rotate(-485deg);
 }
 .orbital-menu__item:nth-child(11) .orbital-menu__link:before {
-  background: rgb(20, 212, 107);
+  background: #7e2b2b;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(12) {
   animation-delay: 0.7s;
-  transform: rotate(520deg);
+  transform: rotate(521deg);
 }
 .orbital-menu__item:nth-child(12) .orbital-menu__link {
-  transform: rotate(-520deg);
+  transform: rotate(-521deg);
 }
 .orbital-menu__item:nth-child(12) .orbital-menu__link:before {
-  background: rgb(226, 90, 11);
+  background: #e25a0b;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(13) {
   animation-delay: 0.7s;
-  transform: rotate(565deg);
+  transform: rotate(593deg);
 }
 .orbital-menu__item:nth-child(13) .orbital-menu__link {
-  transform: rotate(-565deg);
+  transform: rotate(-593deg);
 }
 .orbital-menu__item:nth-child(13) .orbital-menu__link:before {
-  background: #58f05f);
+  background: #92381c;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(14) {
   animation-delay: 0.7s;
-  transform: rotate(608deg);
+  transform: rotate(610deg);
 }
 .orbital-menu__item:nth-child(14) .orbital-menu__link {
-  transform: rotate(-608deg);
+  transform: rotate(-610deg);
 }
 .orbital-menu__item:nth-child(14) .orbital-menu__link:before {
-  background: #5146f0;
+  background: #6e7006;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(15) {
   animation-delay: 0.7s;
-  transform: rotate(650deg);
+  transform: rotate(664deg);
 }
 .orbital-menu__item:nth-child(15) .orbital-menu__link {
-  transform: rotate(-650deg);
+  transform: rotate(-664deg);
 }
 .orbital-menu__item:nth-child(15) .orbital-menu__link:before {
-  background: #577e6f;
+  background: #139261;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(16) {
   animation-delay: 0.7s;
-  transform: rotate(695deg);
+  transform: rotate(701deg);
 }
 .orbital-menu__item:nth-child(16) .orbital-menu__link {
-  transform: rotate(-695deg);
+  transform: rotate(-701deg);
 }
 .orbital-menu__item:nth-child(16) .orbital-menu__link:before {
-  background: #cae943;
+  background: #b67d28;
   animation-delay: 2.31s;
 }
 .orbital-menu__item:nth-child(17) {
   animation-delay: 0.7s;
-  transform: rotate(720deg);
+  transform: rotate(737deg);
 }
 .orbital-menu__item:nth-child(17) .orbital-menu__link {
-  transform: rotate(-720deg);
+  transform: rotate(-737deg);
 }
 .orbital-menu__item:nth-child(17) .orbital-menu__link:before {
   background: #db0808;
   animation-delay: 2.31s;
 }
+
 .orbital-menu__item:nth-child(18) {
   animation-delay: 0.7s;
-  transform: rotate(760deg);
+  transform: rotate(795deg);
 }
 .orbital-menu__item:nth-child(18) .orbital-menu__link {
-  transform: rotate(-760deg);
+  transform: rotate(-795deg);
 }
 .orbital-menu__item:nth-child(18) .orbital-menu__link:before {
   background: #8adb08;
+  animation-delay: 2.31s;
+}
+.orbital-menu__item:nth-child(19) {
+  animation-delay: 0.7s;
+  transform: rotate(827deg);
+}
+.orbital-menu__item:nth-child(19) .orbital-menu__link {
+  transform: rotate(-827deg);
+}
+.orbital-menu__item:nth-child(19) .orbital-menu__link:before {
+  background: #e7eb0b;
+  animation-delay: 2.31s;
+}
+.orbital-menu__item:nth-child(20) {
+  animation-delay: 0.7s;
+  transform: rotate(916deg);
+}
+.orbital-menu__item:nth-child(20) .orbital-menu__link {
+  transform: rotate(-916deg);
+}
+.orbital-menu__item:nth-child(20) .orbital-menu__link:before {
+  background: #50275c;
+  animation-delay: 2.31s;
+}
+.orbital-menu__item:nth-child(21) {
+  animation-delay: 0.7s;
+  transform: rotate(990deg);
+}
+.orbital-menu__item:nth-child(21) .orbital-menu__link {
+  transform: rotate(-990deg);
+}
+.orbital-menu__item:nth-child(21) .orbital-menu__link:before {
+  background: #bbcc27;
   animation-delay: 2.31s;
 }
 
