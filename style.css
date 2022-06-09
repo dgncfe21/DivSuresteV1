@@ -359,3 +359,11 @@ body {
 .orbital-menu__center-pic:hover > img:last-child {
   opacity: 0;
 }
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(7, 53, 75);
+}
